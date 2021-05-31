@@ -1,0 +1,36 @@
+While loops
+
+  {
+
+
+        static void Main(string[] args)
+        {
+       
+            int index = 1;
+            while (index <= 5)
+                
+            {
+                Console.WriteLine(index);
+                index ++;
+            }
+        }
+    }
+
+
+Do while loop. Execute the statement before checking the while loop
+
+static void Main(string[] args)
+        {
+       
+            int index = 3;
+            do
+
+            {
+                Console.WriteLine(index);
+                index++;
+            }
+            while (index <= 5);
+        }
+    }
+}
+
