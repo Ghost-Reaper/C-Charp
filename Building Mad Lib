@@ -1,0 +1,19 @@
+
+
+
+ // string variable can be define in one line 
+            string color, pluralNoun, celebrity;
+
+            Console.WriteLine( "Enter a color: ");
+            color = Console.ReadLine();
+
+            Console.WriteLine("Enter a pluralnoun: ");
+            pluralNoun = Console.ReadLine();
+
+            Console.WriteLine("Enter a celebrity: ");
+            celebrity = Console.ReadLine();
+
+
+            Console.WriteLine("Roses are " + color );
+            Console.WriteLine(pluralNoun + " are blue");
+            Console.WriteLine("I love " + celebrity);
