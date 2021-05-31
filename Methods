@@ -1,0 +1,20 @@
+
+// a method is a container or a block where we can put code that will perform a specific task.
+        //the main method is special because this is the method that gets executed when we run our program.
+
+        static void Main(string[] args)
+        {
+            // the SayHi allow c# to go down and run the method in SayHi then come back up to the main
+            // and run that if any codes is there to run
+            // by typing sayhi so much times i use the same block of code to run try times
+            SayHi("mike", 33);
+            SayHi("John", 56);
+            SayHi("Tom", 37);
+            Console.WriteLine("Hello 1User");
+
+        }
+
+        static void SayHi (string name, int age)
+
+        {
+            Console.WriteLine("Hello " + name + " you are + age");
