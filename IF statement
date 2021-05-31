@@ -1,0 +1,108 @@
+
+
+            bool isMale = false;
+            bool isTall = false;
+
+
+            // &&-and   or-|| == equal 
+            if (isMale && isTall)
+            {
+                Console.WriteLine("You are  a tall Male");
+            }
+            // the exclimation negatve the info eg if it was flase turn it to true vice versa
+            else if (isMale && !isTall)
+            {
+                Console.WriteLine("you are a short male");
+            }
+            else if (!isMale && isTall)
+            {
+                Console.WriteLine("you not a male but you are tall");
+            }
+            else
+            {
+                Console.WriteLine("you are not male or not tall");
+            }
+            Console.WriteLine();
+        }
+
+       
+    }
+}
+
+
+
+            Console.WriteLine("Enter your Color: ");
+
+            var color = Console.ReadLine();
+
+
+            if (color == "red")
+            {
+                Console.WriteLine("You have the power of Wind");
+            }
+
+            if (color == "blue")
+            {
+                Console.WriteLine("You have the power of Water");
+
+            }
+
+            if (color == "yellow")
+            {
+                Console.WriteLine("you have the power of Earth");
+            }
+
+            else if (color == "green")
+            {
+                Console.WriteLine("you have the power of the samurai");
+            }
+             if (color == "crimson")
+            {
+                Console.WriteLine("you have the power of the beetle");
+            }
+
+             if (color == "navy blue")
+            {
+                Console.WriteLine("you have the power of the beetle");
+                
+
+            }
+             
+            while (color != "red" & color != "blue" & color != "yellow" & color != "green" & color != "crimson" & color != "navy blue")
+            {
+                Console.WriteLine("you can only pick red, blue, yellow, green, crimson, navy blue");
+
+                Console.WriteLine("Enter a new color");
+
+                 color = Console.ReadLine();
+
+
+                if (color == "red")
+                {
+                    Console.WriteLine("You have the power of Wind");
+                    
+                }
+
+                if (color == "blue")
+                {
+                    Console.WriteLine("You have the power of Water");
+
+                }
+
+                if (color == "yellow")
+                {
+                    Console.WriteLine("you have the power of Earth");
+                }
+
+                if (color == "green")
+                {
+                    Console.WriteLine("you have the power of the samurai");
+                }
+                 if (color == "crimson")
+                {
+                    Console.WriteLine("you have the power of the beetle");
+                }
+
+                if (color == "navy blue")
+                {
+                    Console.WriteLine("you have the power of the beetle");
