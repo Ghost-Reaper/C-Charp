@@ -1,0 +1,14 @@
+
+
+
+   {
+            cube(5);
+            Console.WriteLine(cube (5));
+        }
+
+        static int cube (int num)
+        {
+            int result = num * num * num;
+            // the return keyword tell the method that we want to return piece of information to the caller
+            return result;
+        }
