@@ -1,0 +1,34 @@
+
+            // two types of numbers are whole numbers and decimal.//
+
+            Console.WriteLine(-5.783);
+
+            Console.WriteLine(5 + 8);
+
+            Console.WriteLine(5 - 8);
+
+            Console.WriteLine(5 * 8);
+
+            Console.WriteLine(5 / 8);
+
+
+            // 5 divided by 2 and gives the remainder//
+            Console.WriteLine(5 % 2);
+
+
+            // you will get back integer value//
+            Console.WriteLine(5 /2);
+
+            // you will get back decimal value//
+            Console.WriteLine(5 / 2.0);
+
+
+            int num = 6;
+            Console.WriteLine(num);
+
+
+            Console.WriteLine(Math.Abs (-40));
+
+
+            // 3 raise to the 2 power//
+            Console.WriteLine(Math.Pow(3, 2));
