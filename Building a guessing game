@@ -1,0 +1,70 @@
+
+
+
+
+For loops
+           
+// create the variable i
+// then check condition 1 before go to run code.. then go back and check condition 2 then go back to code.
+            for (int i = 1; i <= 5;  i++)
+            {
+                Console.WriteLine(i);
+            }
+
+        }
+    }
+}
+
+
+2d arrays
+
+  int[,] numberGrid =
+            {
+                {1, 2 },
+                {3, 4 },
+                {5, 6 }
+            };
+
+            // 0 0 signify row 0 coloum 0
+            Console.WriteLine(numberGrid[0, 0]);
+        }
+    }
+}
+
+
+
+Comments
+// just basically using // to write staments
+
+/*
+
+*/
+
+
+Exception handling - makes your program more durable
+
+  {
+            // is use to handle a program when we enter wrong information such as letters in a number field
+            try
+            {
+                Console.WriteLine("Enter a number: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Enter another number: ");
+                int num2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(num1 / num2);
+
+            }
+            // can catch specific type of errors
+            catch(Exception e)
+            {
+                Console.WriteLine("Error");
+            }
+            catch (FormatException e)
+            {
+
+            }
+        }
+         
+    }
