@@ -1,0 +1,30 @@
+
+
+
+            /* the number is a string by default.. got to convert it to an integer
+            string num ="45";
+
+            int num = Convert.ToInt32("45");
+
+            Console.WriteLine(num + 51);
+            */
+
+            /*
+            Console.Write("Enter first number: ");
+            int num1 = Convert.ToInt32 (Console.ReadLine()) ;
+
+            Console.Write("Enter second number: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(num1 + num2);
+            */
+
+            // double so you can accept decimal from user input
+
+            Console.Write("Enter first number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter second number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine(num1 + num2);
