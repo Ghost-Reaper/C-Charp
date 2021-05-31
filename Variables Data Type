@@ -1,0 +1,20 @@
+Variables Data Type
+A variable is a container to store different values
+
+            // is use for texts or a string of text//
+            string phrase = "Giraffe Academy";
+
+            // char is use for characters single character//
+            char grade = 'A';
+
+            // int is use for integer numbers whole numbers no decimal//
+            int age = 30;
+
+            //double is for number with decimal float, double, decimal, goes from least accuate to accuate//
+            double gpa = 3.3;
+
+            // bool is use for true or false value, only two values
+            bool isMale = true;
+
+
+            Console.WriteLine( phrase + grade + " " + age + "" + gpa + " " + isMale )
