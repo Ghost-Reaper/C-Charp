@@ -1,0 +1,16 @@
+
+
+
+            //writeline is use when you print a line then the cursor goes to he next line.  write alone allows you to input info on same line//
+
+            Console.Write("Enter your name: ");
+
+            // the name is store in the string varible//
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Hello " + name);
+
+            Console.Write("Enter your age: ");
+            string age = Console.ReadLine();
+
+            Console.WriteLine("Hello " + name + " you are " + age + " years old");
