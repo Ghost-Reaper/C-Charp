@@ -1,0 +1,61 @@
+
+
+
+
+            Console.WriteLine("Giraffe Academy");
+
+
+            //make the word academy goes on second line//
+            Console.WriteLine("Giraffe\nAcademy");
+
+
+            // printing out the quoatation mark
+            Console.WriteLine("Giraffe\"Academy");
+
+
+            string phrase = "giraffe Academy";
+
+            Console.WriteLine(phrase);
+
+
+            //adding two phrases together//
+            Console.WriteLine(phrase + " is cool");
+
+
+            //use to find out how much characters is inside a string//
+            Console.WriteLine(phrase.Length);
+
+
+            //use to change all characters in the strings to full caps//
+            Console.WriteLine(phrase.ToUpper () );
+
+            Console.WriteLine(phrase.ToLower());
+
+            //search a string for a speciic set of characters.  it will return a true or false value//
+            Console.WriteLine(phrase.Contains ("Academy"));
+
+
+            // use to display what is the first character of a string
+            Console.WriteLine(phrase [0]);
+
+            // use to tell me where Academy started from //
+
+            Console.WriteLine(phrase.IndexOf("Academy"));
+
+            // let me know where f started from//
+            Console.WriteLine(phrase.IndexOf('f'));
+
+
+            // -1 means leter not found//
+            Console.WriteLine(phrase.IndexOf('s'));
+
+
+
+            //subsring. this allows me to print from the 8th index going forward//
+
+            Console.WriteLine(phrase.Substring(8));
+
+
+            //subsring. this allows me to print from the 8th index going o 3 forward//
+
+            Console.WriteLine(phrase.Substring(8, 3));
