@@ -1,0 +1,54 @@
+
+
+
+
+
+using System;
+
+namespace Giraffe
+{
+    class Program
+    {
+
+
+        static void Main(string[] args)
+        {
+            Book book1 = new Book("Harry Potter", "JK Rowling", 400);
+          
+
+            Book book2 = new Book("Lord of the rings", "Tolkein", 700);
+
+            //if i want i can define outsideeg below
+            book2.title = "Nick";
+
+
+            Console.WriteLine(book2.title);
+
+        }
+         
+    }
+}
+
+
+
+using System;
+namespace Giraffe
+{
+    
+    
+        class Book
+        {
+        public string title;
+        public string author;
+        public int pages;
+
+        public Book(string aTitle, string aAuthor, int aPages)
+        {
+            title = aTitle;
+            author = aAuthor;
+            pages = aPages;
+
+        }
+
+        }
+    }
